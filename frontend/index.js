@@ -55,8 +55,7 @@ const getWeatherData = async ()=>{
 
 try{
 
-const weatherUrl = `http://localhost:3000/weather/${city}`;
-
+const weatherUrl = `https://weather-sajjad-app.onrender.com/weather/${city}`;
 const res = await fetch(weatherUrl);
 
 const data = await res.json();
